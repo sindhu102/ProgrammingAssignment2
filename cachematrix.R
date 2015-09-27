@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = numeric()) {
 }
 
 ## This function takes in matrix as input returns inverse
-## of a matrix. This function also checks if inverse is already
+## of a matrix. This function also checks if inverse already
 ## exists, if it does, then it fetches from cache and does NOT
 ## re calculate it
 
