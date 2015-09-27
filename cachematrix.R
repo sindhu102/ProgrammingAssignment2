@@ -1,5 +1,5 @@
 
-## This function takes in matrix as a input 
+## This function takes in matrix as input 
 ## and returns list of functions
 
 makeCacheMatrix <- function(x = numeric()) {
@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = numeric()) {
              getInverse = getInverse)
 }
 
-## This function takes in matrix as a returns inverse
+## This function takes in matrix as input returns inverse
 ## of a matrix. This function also checks if inverse is already
 ## exists, if it does, then it fetches from cache and does NOT
 ## re calculate it
